@@ -21,6 +21,7 @@ pip install lmcmd
 - **list**: List all key-value pairs in the database.
 - **export**: Export database data to `export.json`.
 - **import `<ID>` `<FILE_PATH>`**: Import data from a JSON file.
+- **search `<VALUE>`**: List value in the database key or value.
 
 ## Usage
 
@@ -51,6 +52,8 @@ Database: my_database
 Ok
 >>> list
 (Empty)
+>>> search Alice
+{name: Alice}
 ```
 
 ## Explanation

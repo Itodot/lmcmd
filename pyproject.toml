@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lmcmd"
-version = "0.1.1"
+version = "0.1.2"
 description = "The Fast lmdb Command Client"
 authors = ["Jack.Zhang <17284782591@163.com>"]
 readme = "README.md"
@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 lmdb = "^1.6.2"
+pytest = "^8.3.5"
 
 
 [build-system]
