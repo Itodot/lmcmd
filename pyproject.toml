@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lmcmd"
+version = "0.1.1"
+description = "The Fast lmdb Command Client"
+authors = ["Jack.Zhang <17284782591@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lmdb = "^1.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+lmcmd = "lmcmd.main:main"
